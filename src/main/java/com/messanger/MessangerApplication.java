@@ -8,6 +8,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 
 public class MessangerApplication {
+
     public static void main(String[] args) {
         System.out.println("Kafka producer");
         String bootstrapServers = "127.0.0.1:9092";
